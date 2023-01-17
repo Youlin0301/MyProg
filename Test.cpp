@@ -16,7 +16,7 @@ int main() {
 	background_task f;
 	thread my_thread(f);
 	
-	//thread my_thread(background_task());
+	thread my_thread(background_task());
 	
 	return 0;
 }
